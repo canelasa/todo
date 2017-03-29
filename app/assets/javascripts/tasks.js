@@ -69,4 +69,10 @@ $(function() {
      });
    });
 
+
+   $('#clearbtn').on('click', function(e) {
+     e.preventDefault();
+     $('.completed').remove();
+   })
+
  });
